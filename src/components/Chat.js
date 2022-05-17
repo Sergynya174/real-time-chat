@@ -1,9 +1,9 @@
-import React, {useContext, useState} from "react";
+import React, {useContext, useState} from 'react';
 import {useAuthState} from 'react-firebase-hooks/auth';
 import {useCollectionData} from 'react-firebase-hooks/firestore';
 import {Context} from '../index';
-import { Container, Grid, TextField, Button, Avatar} from "@mui/material";
-import Loader from "./Loader";
+import { Container, Grid, TextField, Button, Avatar} from '@mui/material';
+import Loader from './Loader';
 import firebase from 'firebase/compat/app'
 
 const Chat = () => {
